@@ -1,0 +1,93 @@
+#header {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    background-color: #0F1338;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 0 10%;
+}
+#header nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 40px;
+}
+#header nav ul li  {
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .3s;
+}
+#header nav ul li:hover {
+    opacity: 50%;
+}
+#header button {
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid #F65B32;
+    background-color: #0F1338;
+    color: white;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: .3;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#header h1 {
+    font-size: 35px;
+}
+#header button:hover {
+    transform: scale(1.03);
+}
+
+@media only screen and (max-width: 600px) {
+    #header {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        background-color: #0F1338;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        padding: 0 10%;
+        gap: 10px;
+    }
+    #header nav ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        gap: 20px;
+        width: 100%;
+    }
+    #header nav ul li  {
+        text-decoration: none;
+        text-align: center;
+        font-size: 14px;
+        cursor: pointer;
+        transition: .3s;
+    }
+    #header button {
+        width: fit-content;
+        height: fit-content;
+        border: 2px solid #F65B32;
+        background-color: #0F1338;
+        color: white;
+        padding: 15px;
+        margin-top: 10px;
+        border-radius: 40px;
+        font-weight: bold;
+        font-size: 14px;
+        transition: .3;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+    #header h1 {
+        font-size: 35px;
+    }
+}
